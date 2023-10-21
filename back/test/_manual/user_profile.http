@@ -1,0 +1,14 @@
+# file: test/_manual/user_profile.http
+
+POST http://localhost:5000/api/auth/login
+content-type: application/json
+
+{
+    "username": "user-1@example.com",
+    "password": "user-1-password"
+}
+
+###
+
+GET http://localhost:5000/api/me
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYxMzg0NjYzNSwianRpIjoiYmFkYTIxMGYtNDE5My00YzM1LWJmMzQtODkwNzcxM2VmNTM1IiwibmJmIjoxNjEzODQ2NjM1LCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoidXNlci0xIiwiZXhwIjoxNjEzODUzODM1fQ.zh4nt3MnnHVUQ8bnriAMhHX6P82Sitcju2C8oeBiBrc
