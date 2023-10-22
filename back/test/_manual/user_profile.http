@@ -5,10 +5,10 @@ content-type: application/json
 
 {
     "username": "user-1@example.com",
-    "password": "user-1-password"
+    "password": "newtest"
 }
 
 ###
 
 GET http://localhost:5000/api/me
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYxMzg0NjYzNSwianRpIjoiYmFkYTIxMGYtNDE5My00YzM1LWJmMzQtODkwNzcxM2VmNTM1IiwibmJmIjoxNjEzODQ2NjM1LCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoidXNlci0xIiwiZXhwIjoxNjEzODUzODM1fQ.zh4nt3MnnHVUQ8bnriAMhHX6P82Sitcju2C8oeBiBrc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY5NzkzNDU3OSwianRpIjoiMjdiOGFkZjAtMzFmNi00MjliLWIxNGUtNmQ0NWEyNTA2ZDFhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6InVzZXItMSIsIm5iZiI6MTY5NzkzNDU3OSwiZXhwIjoxNjk3OTQxNzc5fQ.OPhOfBChiFRPcSVuLgtOAFS7WXgB7XH0udqSIAsa9JI
